@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: eduardotadeudealmeida/helloworld:latest # Imagem do Docker da sua aplicação
+        image: etdacorp/helloworld:1.0 # Imagem do Docker da sua aplicação
         ports:
         - containerPort: 8080 # Porta que a aplicação escuta dentro do container
